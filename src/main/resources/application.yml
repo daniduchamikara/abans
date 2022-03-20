@@ -1,0 +1,21 @@
+spring:
+  security:
+    enabled: false
+  profiles:
+    active: dev
+  datasource:
+    url: jdbc:mysql://localhost:3306/web-service-assignment-db
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+
+server:
+  port: 8339
+  context-path: /abance
+
+
+
+
+
